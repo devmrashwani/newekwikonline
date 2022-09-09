@@ -1,0 +1,233 @@
+/* ======!!!!!!!!>> Variables Starts <<!!!!!!!!===== */
+
+:root {
+    -Ashwani-heading-color: #00FF67;
+    -Ashwani-heading-color: #00DD94;
+    -Ashwani-heading-color: #00B8A8;
+    -Ashwani-button-color: #0092A2;
+    -Ashwani-heading-color: #006C85;
+    --Ashwani-background-black: #2F4858;
+}
+
+
+/* ======!!!!!!!!>> Variables Ends <<!!!!!!!!===== */
+
+
+/* ======================================================================  Partician   ===================================================================== */
+
+
+/* ======!!!!!!!!>> Universal code Starts <<!!!!!!!!===== */
+
+*,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+
+/* ======!!!!!!!!>> Universal code Ends <<!!!!!!!!===== */
+
+
+/* ======================================================================  Partician   ===================================================================== */
+
+
+/* ======!!!!!!!!>> Header code Ends <<!!!!!!!!===== */
+
+.Ashwani-header-div-1 {
+    height: 50px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Ashwani-header-div-2 {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.Ashwani-div-2-ul {
+    display: flex;
+    justify-content: space-around;
+    width: max-content;
+}
+
+.Ashwani-div-2-ul>a>li {
+    margin: 5px;
+    list-style: none;
+}
+
+.Ashwani-div-3-ul {
+    height: 50px;
+}
+
+.Ashwani-div-3-ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.Ashwani-div-3-ul>li {
+    position: relative;
+    list-style: none;
+    /* border: 2px solid red; */
+    padding: 13px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.Ashwani-sub-menu-container {
+    position: absolute;
+    height: max-content;
+    width: 800px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px white;
+    display: none;
+    transition: all 0.3s ease;
+}
+
+.Ashwani-sub-menu-container hr {
+    margin: 10px;
+    background-color: #00FF67;
+    border-color: #00FF67;
+}
+
+.Ashwani-sub-menu-container ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.Ashwani-sub-menu-container ul li {
+    list-style: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.Ashwani-classroom-training:hover .Ashwani-classroom-training-container {
+    display: block;
+}
+
+.Ashwani-online-training:hover .Ashwani-online-training-container {
+    display: block;
+}
+
+.Ashwani-internship:hover .Ashwani-internship-container {
+    display: block;
+}
+
+.Ashwani-interview-questions:hover .Ashwani-interview-questions-container {
+    display: block;
+}
+
+.Ashwani-quiz-test:hover .Ashwani-quiz-test-container {
+    display: block;
+}
+
+.Ashwani-center:hover .Ashwani-center-container {
+    display: block;
+}
+
+.Ashwani-video:hover .Ashwani-video-container {
+    display: block;
+}
+
+.Ashwani-free-demo:hover .Ashwani-free-demo-container {
+    display: block;
+}
+
+
+/* ======!!!!!!!!>> Header code Ends <<!!!!!!!!===== */
+
+
+/* ======!!!!!!!!>> Index Page code Starts <<!!!!!!!!===== */
+
+.Ashwani-banner-section-1 {
+    height: 650px;
+    width: 100%;
+    background-color: #00DD94;
+}
+
+.Ashwani-banner-section-2 {
+    height: max-content;
+    width: 80%;
+    margin: auto;
+}
+
+.Ashwani-banner-section-2>h2 {
+    text-align: center;
+    margin: 20px;
+}
+
+.Ashwani-course-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    row-gap: 40px;
+    column-gap: 20px;
+}
+
+.Ashwani-course {
+    height: 400px;
+    padding: 10px;
+    width: 370px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.Ashwani-course-bg {
+    background-color: #00B8A8;
+    height: 200px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.Ashwani-course>h2 {
+    margin: 5px;
+}
+
+.Ashwani-course>p {
+    margin: 5px;
+}
+
+.Ashwani-course>a {
+    margin: 5px;
+    font-size: large;
+}
+
+.Ashwani-course>a:hover {
+    color: #00DD94;
+}
+
+.Ashwani-course:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.598);
+}
+
+
+/* ======!!!!!!!!>> Index Page code Ends <<!!!!!!!!===== */
+
+
+/* ======================================================================  Partician   ===================================================================== */
+
+
+/* ======!!!!!!!!>> Footer code Ends <<!!!!!!!!===== */
+
+
+/* ======!!!!!!!!>> Footer code Ends <<!!!!!!!!===== */
